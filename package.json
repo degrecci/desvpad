@@ -1,0 +1,31 @@
+{
+  "name": "desvpad",
+  "version": "0.0.1",
+  "description": "CLI Standard Deviation",
+  "main": "desvpad.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec",
+    "watch": "istanbul cover _mocha -- -R spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/degrecci/desvpad"
+  },
+  "keywords": [
+    "desvpad",
+    "desvio",
+    "padrão",
+    "standart",
+    "deviation"
+  ],
+  "author": "degrecci",
+  "license": "GPL.v3",
+  "bugs": {
+    "url": "https://github.com/degrecci/desvpad/issues"
+  },
+  "homepage": "https://github.com/degrecci/desvpad",
+  "preferGlobal": true,
+  "bin": {
+  "calculatr": "calculatr.js"
+  }
+}
